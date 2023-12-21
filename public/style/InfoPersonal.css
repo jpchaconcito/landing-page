@@ -1,0 +1,45 @@
+.Info-seccion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: inset 0 0 15px  #00AFEE;
+  }
+  
+.chacon, .chamo {
+    width: 100%;
+    margin: 10px 10px 10px 10px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #00AFEE;
+    overflow: hidden;
+    display: flex;
+}
+  
+.chacon .info, .chamo .info {
+    flex: 1; 
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #575757;
+}
+
+.chacon img {
+    max-width: 20%;
+    height: auto;
+    padding: 20px;
+    border-radius: 10%;
+}
+  
+.chamo img {
+    max-width: 20%;
+    height: auto;
+    padding: 20px;
+    border-radius: 10%;
+}
+
+.lista-recode {
+    list-style: none;
+}
+  
