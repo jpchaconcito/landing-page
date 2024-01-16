@@ -1,7 +1,7 @@
 .Recode {
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 700px;
     overflow: hidden;
   }
   
@@ -19,8 +19,8 @@
   
 .contenido-Recode {
     display: flex;
-    max-width: 700px;
-    width: 90%;
+    max-width: 900px;
+    width: 70%;
     text-align: left;
     align-items: center;
 }
