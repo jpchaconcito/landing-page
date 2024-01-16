@@ -8,8 +8,8 @@
   
 .chacon, .chamo {
     width: 100%;
-    margin: 10px 10px 10px 10px;
-    border-radius: 20px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px;
     background-color: #fff;
     box-shadow: 0 0 10px #00AFEE;
     overflow: hidden;
@@ -26,17 +26,17 @@
 }
 
 .chacon img {
-    max-width: 20%;
-    height: auto;
-    padding: 20px;
     border-radius: 10%;
+    max-width: 25%;
+    max-height: 80%;
+    padding: 20px;
 }
   
 .chamo img {
-    max-width: 20%;
-    height: auto;
-    padding: 20px;
     border-radius: 10%;
+    max-width: 25%;
+    max-height: 80%;
+    padding: 20px;
 }
 
 .lista-recode {
