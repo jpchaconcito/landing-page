@@ -1,0 +1,30 @@
+#titulo-slider{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Segoe IU", sans-serif;
+    font-size: 2rem;
+}
+
+.slider{
+    width: 1280px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+}
+
+.slider li{
+    list-style: none;
+    width: 100%;
+}
+
+.slider img{
+    width: 100%;
+}
