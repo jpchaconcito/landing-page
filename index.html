@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="public/style/Recode.css">
     <link rel="stylesheet" href="public/style/InfoPersonal.css">
     <link rel="shortcut icon" href="public/img/logo.png">
+    <link rel="stylesheet" href="public/style/Slider.css">
     <title>Comando Apache</title>
 </head>
 
@@ -82,17 +83,20 @@
             <img src="public/img/chamo.jpg" alt="Imagen de Chamo">
         </div>
     </section>
-    <section class="contenido-Slider">
-        <div class="slider">
-            <ul>
-                <li><img src="public/img/imagenPrueba01.jpg" alt="imagenPrueba1"></li>
-                <li><img src="public/img/imagenPrueba02.jpg" alt="imagenPrueba2"></li>
-                <li><img src="public/img/imagenPrueba03.jpg" alt="imagenPrueba3"></li>
-                <li><img src="public/img/imagenPrueba04.jpg" alt="imagenPrueba4"></li>
-            </ul>
+    <section class="container">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img id="slide-1" src="public/img/imagenPrueba01.jpg" alt="Imagen1">
+                <img id="slide-2" src="public/img/imagenPrueba02.jpg" alt="Imagen2">
+                <img id="slide-3" src="public/img/imagenPrueba03.jpg" alt="Imagen3">
+            </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+            </div>
         </div>
     </section>
-
 </body>
 
 </html>
